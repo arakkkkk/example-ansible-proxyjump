@@ -1,0 +1,4 @@
+- name: Run test_roles role on target servers
+  hosts: ansible-client
+  roles:
+    - test_role

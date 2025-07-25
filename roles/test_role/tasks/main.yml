@@ -1,0 +1,6 @@
+- name: Create /tmp/hello.txt with custom content
+  copy:
+    dest: /tmp/hello.txt
+    content: |
+      Hello from Ansible!
+      This file was created via test_roles using a proxy.
